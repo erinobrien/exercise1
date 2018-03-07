@@ -1,0 +1,50 @@
+
+body {
+    width: 100%;
+    font-family: 'avenir';
+}
+
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #ECCCD2;
+    font-size: 1.5em;
+    color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.topnav a:hover {
+    background-color:#ECCCD2;
+    color: black;
+}
+
+@media (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+footer h5 {
+    margin-left: 10%;
+}
+
+
+
+
+}
